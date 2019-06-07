@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+
+
+
+
+{% block content %}
+
+
+
+
+	{% if error %}
+         <p><strong>Error:</strong> {{ error }}
+      {% endif %}
+
+
+  <h1>Index</h1>
+  <p class="important">
+    Welcome on my awesome homepage.
+  </p>
+{{d}}
+{% endblock %}
